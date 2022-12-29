@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "fireship-kanban-b029e": {
+      "hosting": {
+        "firestarter-demo": [
+          "fireship-kanban-b029e"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "fireship-kanban-b029e"
+  }
+}
