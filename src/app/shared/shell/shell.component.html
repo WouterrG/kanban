@@ -14,9 +14,6 @@
       <a mat-list-item routerLink="/kanban" (click)="drawer.close()"
         >Kanban Demo</a
       >
-      <a mat-list-item routerLink="/customers" (click)="drawer.close()"
-        >SSR Demo</a
-      >
     </mat-nav-list>
   </mat-sidenav>
 
@@ -36,7 +33,6 @@
       <span class="fill-space"></span>
       <div *ngIf="!(isHandset$ | async)">
         <a mat-button routerLink="/kanban">🍱 Kanban Demo</a>
-        <a mat-button routerLink="/customers">⚡ SSR Demo</a>
 
         <a mat-button routerLink="/login">🔑 Login</a>
       </div>
@@ -52,9 +48,9 @@
       </button>
 
       <mat-menu #menu="matMenu">
-        <a mat-menu-item href="https://fireship.page.link/slack">
+        <a mat-menu-item href="https://www.linkedin.com/in/wouter-de-gruijl/">
           <i>💬</i>
-          <span>Chat on Slack</span>
+          <span>Find Me On LinkedIn</span>
         </a>
       </mat-menu>
     </mat-toolbar>

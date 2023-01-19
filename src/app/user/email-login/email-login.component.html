@@ -15,7 +15,7 @@
 
   <div *ngIf="isPasswordReset">
     <h3>Reset Password</h3>
-    <button size="small" mat-button (click)="changeType('login')">Baack</button>
+    <button size="small" mat-button (click)="changeType('login')">Back</button>
   </div>
 
   <form [formGroup]="form" (ngSubmit)="onSubmit()">
@@ -82,7 +82,7 @@
       type="submit"
       [disabled]="form.invalid || !passwordDoesMatch || loading"
     >
-      Send Reset Email
+      Submit
     </button>
 
     <button
